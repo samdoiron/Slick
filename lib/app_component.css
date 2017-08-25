@@ -1,0 +1,27 @@
+:host {
+    display: grid;
+    height: 100%;
+    grid:
+        "team-info channel-info" 48px
+        "sidebar   chat"         auto
+        / 200px auto;
+}
+
+#channel-info {
+    grid-area: channel-info;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#team-info {
+    grid-area: team-info;
+    background-color: #eeeeee;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: #eeeeee;
+}
+
+#chat {
+    grid-area: chat;
+}

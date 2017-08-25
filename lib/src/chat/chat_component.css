@@ -1,0 +1,35 @@
+:host {
+    padding: 24px;
+}
+
+.message {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 16px;
+}
+
+.message__avatar {
+    margin-right: 8px;
+}
+
+.message__author {
+    font-weight: bold;
+}
+
+.message__head {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.message__time {
+    font-size: .8em;
+    color: rgba(0,0,0,.87);
+    margin-left: 8px;
+}
+
+.message__main {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}

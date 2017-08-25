@@ -1,0 +1,21 @@
+/* Copyright (c) 2017, samueldoiron. All rights reserved. Use of this source code
+   is governed by a BSD-style license that can be found in the LICENSE file. */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  color: black;
+  line-height: 1.4em;
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}

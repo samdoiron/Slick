@@ -1,0 +1,12 @@
+<div *ngFor="let message of messages;" class="message">
+    <img width="48" height="48" class="message__avatar" src="//via.placeholder.com/150x150">
+    <div class="message__main">
+        <div class="message__head">
+            <span class="message__author">{{ message.author }}</span>
+            <span class="message__time">1:07pm</span>
+        </div>
+        <div class="message__body">
+            {{ message.body }}
+        </div>
+    </div>
+</div>

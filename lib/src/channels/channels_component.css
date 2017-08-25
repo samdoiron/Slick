@@ -1,0 +1,24 @@
+:host {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.channel {
+    padding: 8px;
+    padding-left: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+}
+
+.channel:hover {
+    background-color: rgba(255,255,255,.75);
+}
+
+.channel--selected,
+.channel--selected:hover {
+    background-color: #ff7043;
+}
